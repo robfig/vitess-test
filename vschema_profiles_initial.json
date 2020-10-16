@@ -1,0 +1,16 @@
+{
+    "tables": {
+        "entity_active_profiles": {},
+        "entity_primary_profiles": {},
+        "entity_profiles": {},
+        "profile_field_data": {},
+        "profile_field_data_latest": {},
+        "profile_locks": {},
+        "profile_operations": {},
+        "profile_update_request_logs": {},
+        "profile_updates": {},
+        "profile_versions": {},
+        "profile_versions_latest": {},
+        "profiles": {}
+    }
+}

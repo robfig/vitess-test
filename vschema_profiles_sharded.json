@@ -1,0 +1,26 @@
+{
+    "sharded": true,
+    "vindexes": {
+        "hash": {
+            "type": "hash"
+        }
+    },
+    "tables": {
+        "profile_field_data": {
+            "column_vindexes": [
+                {
+                    "column": "profile_id",
+                    "name": "hash"
+                }
+            ]
+        },
+        "profile_field_data_latest": {
+            "column_vindexes": [
+                {
+                    "column": "profile_id",
+                    "name": "hash"
+                }
+            ]
+        }
+    }
+}
